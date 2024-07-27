@@ -14,7 +14,7 @@
 
 #### :coffee: Colabore para o cafezinho :coffee:
 
-<img src="./Qr PIX.jpg" width="200">
+<img src="https://github.com/carloseduardonit/conector-do-carlos/blob/bbacf217c11df84b7826304709271bf0d854d1ee/Qr%20PIX.jpg" width="200">
 
 > [!NOTE]
 > "A empatia é certamente um dos mais nobres sentimentos humanos. 
