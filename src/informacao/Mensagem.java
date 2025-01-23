@@ -26,8 +26,8 @@ public class Mensagem {
      * "itemAdicionado Foi adicionado com sucesso !!!"</b>
      *
      * @version 1.0
-     * @param itemAdicionado Informar um valor String na Messagem Adicionar.
-     * @return Retornar a Messagem (ad Foi adicionado com sucesso !!!)
+     * @param itemAdicionado o nome do item que foi adicionado
+     * @return uma mensagem de sucesso informando que o item especificado foi adicionado
      */
     public static final String ADICIONADO(String itemAdicionado) {
         String mensagem = itemAdicionado + " Foi Adicionado com sucesso !!!";
@@ -36,7 +36,7 @@ public class Mensagem {
 
     /** <h1>Este metodo retornar um texto:</h1><p>
      * <b>
-     * "cr Foi criada com sucesso !!!"</b></p>
+     * " Foi criada com sucesso !!!"</b></p>
      *
      * @version 1.0
      * @param itemCriado Informar um valor String na Messagem Criar.
@@ -51,11 +51,11 @@ public class Mensagem {
      * Este metodo retornar um texto:\n "ed Foi editada com sucesso !!!"
      *
      * @version 1.0
-     * @param ed Informar um valor String na Messagem Editada.
+     * @param itemEditado Informar um valor String na Messagem Editada.
      * @return Retornar a Messagem (ed Foi editada com sucesso !!!)
      */
-    public static final String EDITADO(String ed) {
-        String mensagem = ed + " Foi Editado com sucesso !!!";
+    public static final String EDITADO(String itemEditado) {
+        String mensagem = itemEditado + " Foi Editado com sucesso !!!";
         return mensagem;
     }
 
@@ -170,10 +170,10 @@ public class Mensagem {
      * Este metodo Chama a Metodo da Classe informado pelo parametro
      *
      * @version 1.3
-     * @param o Informar um valor String na Messagem da Tela
+     * @param objeto Informar um valor String na Messagem da Tela
      */
-    public static void chamarTela(String o) {
-        JOptionPane.showMessageDialog(null, o);
+    public static void chamarTela(String objeto) {
+        JOptionPane.showMessageDialog(null, objeto);
     }
 
     /**
@@ -325,11 +325,11 @@ public class Mensagem {
      * Criação.
      *
      * @version 1.3
-     * @param criada Setar Informar um valor inteiro na Variavel de Controle de
+     * @param  itemCriado Setar Informar um valor inteiro na Variavel de Controle de
      * Criação.
      */
-    public static void setCriada(int criada) {
-        Mensagem.criada = criada;
+    public static void setCriada(int itemCriado) {
+        Mensagem.criada = itemCriado;
     }
 //Gets e Sets
 
