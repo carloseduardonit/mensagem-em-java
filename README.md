@@ -1,8 +1,77 @@
-# Mensagem
- 
+# Mensagem em Java
+
+Um projeto simples que demonstra o uso de **Java** para manipulação e exibição de mensagens no console. Este repositório pode servir como exemplo básico para iniciantes aprenderem os fundamentos de programação em Java, como estrutura do código, manipulação de strings e boas práticas.
+
+## 📋 Requisitos
+
+Antes de executar o projeto, certifique-se de ter:
+
+- **Java Development Kit (JDK)** versão 8 ou superior instalado.
+- Um editor de código como **IntelliJ IDEA**, **Eclipse** ou qualquer outro IDE para Java.
+- Opcional: **Git** para clonar o repositório.
+
+## 🚀 Começando
+
+Siga estas etapas para clonar e executar o projeto localmente:
+
+1. **Clone o repositório**:
+
+   ```bash
+   git clone https://github.com/carloseduardonit/mensagem-em-java.git
+   ```
+
+2. **Acesse o diretório do projeto**:
+
+   ```bash
+   cd mensagem-em-java
+   ```
+
+## 📚 Estrutura do Projeto
+
+A estrutura básica do projeto é:
+
+```
+mensagem-em-java/
+│
+├── src/informacao                # Código-fonte
+│   └──Mensagem.java        # Arquivo principal 
+│
+└── README.md            # Documentação do projeto
+```
+
+## ✨ Funcionalidades
+
+- **Exibição de mensagens**: O programa exibe mensagens predefinidas no console ou na tela.
+- **Estrutura básica em Java**: Ideal para aprender conceitos iniciais.
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Se você tiver ideias ou melhorias, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para sua funcionalidade:
+
+   ```bash
+   git checkout -b minha-nova-funcionalidade
+   ```
+
+3. Realize as alterações e faça commit:
+
+   ```bash
+   git commit -m "Adiciona nova funcionalidade"
+   ```
+
+4. Envie para o repositório remoto:
+
+   ```bash
+   git push origin minha-nova-funcionalidade
+   ```
+
+5. Abra um Pull Request
+
 #### :writing_hand: Linguagens utilizadas:
 
->![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+>![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)!
 
 #### :writing_hand: Este documento e escrito em:
 
